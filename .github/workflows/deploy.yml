@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Cambia si tu rama principal tiene otro nombre
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
